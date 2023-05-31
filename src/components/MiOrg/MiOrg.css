@@ -1,0 +1,20 @@
+.orgSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orgSection-h3 {
+  font-weight: 400;
+  font-size: 30px;
+  color: rgba(98, 120, 247, 1);
+  padding-bottom: 20px;
+  border-bottom: 4px solid rgba(98, 120, 247, 1);
+}
+
+.orgSection img {
+  position: absolute;
+  right: 10%;
+  cursor: pointer;
+}

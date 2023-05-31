@@ -1,0 +1,8 @@
+.header {
+  background-color: rgba(98, 120, 247, 1);
+  text-align: center;
+}
+
+.header img {
+  max-width: 100%;
+}

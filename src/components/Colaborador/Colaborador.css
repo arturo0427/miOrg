@@ -1,0 +1,57 @@
+.colaborador {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin-bottom: 24px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.colaborador .encabezado {
+  background-color: #f0f0f0;
+  border-radius: 10px 10px 0 0;
+}
+
+.colaborador img {
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  bottom: -50px;
+}
+
+.colaborador .info {
+  background-color: #ffffff;
+  font-family: "Monserrat", sans-serif;
+  border-radius: 0 0 10px 10px;
+}
+
+.colaborador .info h4 {
+  color: rgba(98, 120, 247, 1);
+  font-size: 18px;
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.colaborador .info h5 {
+  color: rgba(33, 33, 33, 1);
+  line-height: 22px;
+  font-size: 18px;
+  margin-top: 60px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.eliminar {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  cursor: pointer;
+}
+
+.eliminar:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}

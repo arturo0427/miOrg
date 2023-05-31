@@ -1,0 +1,22 @@
+.lista-opciones {
+  display: flex;
+  flex-direction: column;
+}
+
+.lista-opciones label {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.lista-opciones select {
+  border: none;
+  height: 50px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.08);
+  padding-left: 20px;
+  outline-color: rgba(98, 120, 247, 1);
+}
+
+.campo-texto select::placeholder {
+  color: rgba(164, 164, 164, 1);
+}
